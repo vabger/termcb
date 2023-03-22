@@ -1,0 +1,26 @@
+{
+  "name": "termcb",
+  "version": "1.0.3",
+  "description": "A simple chat bot which runs on a terminal. Made using OpenAI's API",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vabger",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "ora": "^6.2.0"
+  },
+  "bin": {
+    "termcb": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
