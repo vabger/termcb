@@ -1,7 +1,7 @@
 const makeCall = require('./makeCall')
 const readLine = require('readline')
 
-module.exports = async function main (config) {
+module.exports = async function main(config) {
   const messages = [{ role: 'system', content: 'You are a chat bot running on terminal' }]
   const ora = await import('ora')
 
@@ -30,7 +30,7 @@ module.exports = async function main (config) {
       loading.succeed(' ')
 
       messages.push(res)
-      process.stdout.write('\nTermGPT:> ' + res.content + '\n\n')
+      process.stdout.write('\nTermCB:> ' + res.content + '\n\n')
     } catch (err) {
       console.error(err)
       break

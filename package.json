@@ -1,6 +1,6 @@
 {
   "name": "termcb",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple chat bot which runs on a terminal. Made using OpenAI's API",
   "main": "bin/index.js",
   "scripts": {
