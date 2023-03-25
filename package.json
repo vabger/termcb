@@ -9,7 +9,6 @@
   "author": "vabger",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.3",
     "openai": "^3.2.1",
     "ora": "^6.2.0"
   },
